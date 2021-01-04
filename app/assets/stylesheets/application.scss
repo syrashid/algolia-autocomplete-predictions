@@ -11,3 +11,10 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  height: 100vh;
+  background-image: asset-url('background.gif');
+  background-size: cover;
+  padding-top: 20vh;
+}
