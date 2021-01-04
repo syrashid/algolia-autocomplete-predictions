@@ -23,9 +23,10 @@ export default class extends Controller {
         });
       };
     }
-
-    autocomplete('#search-input', { hint: false }, [
+    // Set hint: true to false, if you don't want a predictive hint to show up for users as they type
+    autocomplete('#search-input', { hint: true }, [
       {
+        // Change hitsPerPage as needed
         source: newHitsSource(index, { hitsPerPage: 10 }),
         displayKey: 'name',
         templates: {
@@ -40,3 +41,5 @@ export default class extends Controller {
     });
   }
 }
+
+

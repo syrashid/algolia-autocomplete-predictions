@@ -21,3 +21,4 @@ puts "---"
 # Confirm DB Populated
 puts ""
 puts "Generated #{Pokemon.count} Poke'mon!"
+

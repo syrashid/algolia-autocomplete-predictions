@@ -33,7 +33,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 
 gem 'faker'
-gem "algoliasearch-rails"
+gem 'algoliasearch-rails'
 
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
