@@ -1,12 +1,13 @@
 import { Controller } from "stimulus"
+
 import algoliasearch from "algoliasearch";
 import autocomplete from "autocomplete.js";
 
 export default class extends Controller {
-  static targets = [ ]
+  static targets = [ "searchBar" ]
 
   connect() {
-    var client = algoliasearch('BA4HJTMZZL', 'e48d96f1f9ae255ccfaec1e8704eebad');
+    var client = algoliasearch(this.searchBarTarget.dataset.algoliaId, this.searchBarTarget.dataset.algoliaSearchKey);
     var index = client.initIndex('Pokemon');
 
     function newHitsSource(index, params) {
