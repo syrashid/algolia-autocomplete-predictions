@@ -26,8 +26,6 @@ require("channels")
 
 // External imports
 import "bootstrap";
-import algoliasearch from "algoliasearch";
-import autocomplete from "autocomplete.js";
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -37,7 +35,6 @@ import "controllers"
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
-
 });
 
 
