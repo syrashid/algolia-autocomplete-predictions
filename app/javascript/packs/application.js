@@ -26,6 +26,7 @@ import "controllers"
 
 // External imports
 import "bootstrap";
+import algoliasearch from "algoliasearch";
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -33,4 +34,15 @@ import "bootstrap";
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+var client = algoliasearch('BA4HJTMZZL', 'e48d96f1f9ae255ccfaec1e8704eebad');
+var index = client.initIndex('Pokemon');
+index.search('Charmander', { hitsPerPage: 10, page: 0 })
+  .then(function searchDone(content) {
+    console.log(content)
+  })
+  .catch(function searchFailure(err) {
+    console.error(err);
+  });
 });
+
+
