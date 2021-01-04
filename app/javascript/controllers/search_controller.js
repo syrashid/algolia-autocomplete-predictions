@@ -16,7 +16,6 @@ export default class extends Controller {
   static targets = [ ]
 
   connect() {
-    console.log("Sweet Tits");
     var client = algoliasearch('BA4HJTMZZL', 'e48d96f1f9ae255ccfaec1e8704eebad');
     var index = client.initIndex('Pokemon');
 
