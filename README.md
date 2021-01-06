@@ -3,7 +3,7 @@
 Repo for an article written on how to create a rails app that implements Algolia's autocomplete predictions feature
 Article can be found below 👇
 
-[Algolia Autocomplete Predictions with Rails](https://syrashid.medium.com/custom-vanity-urls-with-rails-5f45a2a78a38)
+[Algolia Autocomplete Predictions with Rails](https://syrashid.medium.com/algolia-autocomplete-predictions-with-rails-59091c2bf27c)
 
 
 
