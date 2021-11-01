@@ -13,7 +13,7 @@ Article can be found below 👇
 
 _Visitor Flows_
 
-- As a visitor, I can search for Poke'mon and recieve immediate predictions as I type on what Poke'mon I'm searching for
+- As a visitor, I can search for Poke'mon and recieve immediate predictions as I type what Poke'mon I'm searching for
 
 
 ### Base Config
